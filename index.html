@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <title>Calculator-Teja</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="digital-7.ttf">
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js" async></script>
+</head>
+<body>
+    <div class="heading">
+        <header>Calculator</header>
+    </div>
+    <div class="table">
+        <div class="disply">
+            <div class="screen">
+                <div class="result-screen">
+                    <span class="output-val"></span>
+                    <span class="input-val"></span>
+                </div>
+            </div>  
+            <div class="power">
+                <button type="submit" class="on-of" id="offline-online" onclick="iscalculator_off_on(0)">ON</button>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="nums">
+                <button onclick="nums_active(1)">1</button>
+                <button onclick="nums_active(2)">2</button>
+                <button onclick="nums_active(3)">3</button>
+                <button onclick="nums_active(4)">4</button>
+                <button onclick="nums_active(5)">5</button>
+                <button onclick="nums_active(6)">6</button>
+                <button onclick="nums_active(7)">7</button>
+                <button onclick="nums_active(8)">8</button>
+                <button onclick="nums_active(9)">9</button>
+                <button onclick="nums_active('.')">.</button>
+                <button onclick="nums_active(0)">0</button>
+                <button onclick="ops_active('clear')">DEL</button>
+                <button class="ops_active('C')">AC</button>
+                <button class="changes" onclick="ops_active('Result')">=<span></span></button>
+            </div>
+            <div class="operators">
+                <button onclick="ops_active('+')" class="two">+</button>
+                <button onclick="ops_active('-')" class="thr">-</button>
+                <button onclick="ops_active('*')" class="fo">*</button>
+                <button onclick="ops_active('/')" class="fiv">/</button>
+                <button onclick="ops_active('%')" class="six">%</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All rights are reserved | &copy;2024 | <i>Saiteja</i></p>
+        <div class="contanct-bar">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sai-teja-venkata-vinay-adapa/" target="_blank"><img src="icon-logo-linkedin.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
