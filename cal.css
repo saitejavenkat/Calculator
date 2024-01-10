@@ -115,7 +115,14 @@ body{
     color:black;
     cursor:pointer;
 }
-
+.operators button:hover{
+	color:white;
+	background-color:rgb(67,66,66);
+}
+.nums changes:hover, .nums .s:hover{
+	border:2px solid black;
+	box-shadow:none;
+}
 .nums .changes{
     border-radius: 5px;
     background: rgb(255, 255, 255);
@@ -139,4 +146,8 @@ footer p{
 }
 img{
     width:30px;
+}
+.nums .s{
+	color:red;
+	 backgground-color:rgb(254,254,254);
 }
