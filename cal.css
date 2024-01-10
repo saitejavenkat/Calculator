@@ -119,7 +119,7 @@ body{
 	color:white;
 	background-color:rgb(67,66,66);
 }
-.nums changes:hover, .nums .s:hover{
+.nums .changes:hover, .nums .s:hover{
 	border:2px solid black;
 	box-shadow:none;
 }
